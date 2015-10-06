@@ -1,3 +1,27 @@
 body {
   background-image: url(/images/old_map.png)
 }
+#workspace {
+  width: 600px;
+  min-height: 300px;
+  border: 5px dashed red;
+  margin: 0 auto;
+}
+#workspace img {
+  width: 600px;
+}
+#caption {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-shadow: 0 0 5px rgba(0,0,0,0.4);
+  width: 300px;
+  font-size:32px;
+  color: red;
+  margin: 0;
+}
+#workspace {
+  position: relative;
+}
