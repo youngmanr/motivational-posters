@@ -1,6 +1,46 @@
-body {
-  background-image: url(/images/old_map.png)
+
+header {
+  padding: 15px;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
 }
+body {
+  text-align: center;
+  background-image: url(/images/old_map.png);
+  color: gray;
+  font-family: Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+}
+#select-image {
+  background-color: rgba(255,255,255,0.3);
+  padding: 10px
+}
+#add-text {
+  background-color: rgba(0,255,255,0.2);
+  padding: 10px;
+  box-shadow: 1px 0 3px rgba(0,0,0,0.3);
+}
+#add-text input {
+  width: 600px;
+  text-align: center;
+}
+input, button {
+  font-size: 16px
+}
+#style-image {
+  background-color: rgba(255,255,255,0.7);
+  padding: 10px;
+  box-shadow: 1px 0 3px rgba(0,0,00.3);
+}
+#controls {
+  padding: 10px;
+  font-size: 14px;
+}
+input[type="number"] {
+  width: 50px;
+}
+
 #workspace {
   width: 600px;
   min-height: 300px;
@@ -13,15 +53,33 @@ body {
 #caption {
   position: absolute;
   top: 10px;
-  right: 10px;
+  left: 10px;
   font-weight: bold;
   font-family: Helvetica;
   text-shadow: 0 0 5px rgba(0,0,0,0.4);
-  width: 300px;
+  width: 400px;
   font-size:32px;
   color: red;
   margin: 0;
+  text-align: left;
 }
 #workspace {
   position: relative;
+}
+footer {
+  background-color: rgba(255,0,255,0.01);
+  padding: 10px
+  text-align: left;
+  box-shadow: -1px 0 5px rgba(0,0,0,0.3)
+}
+footer img {
+  float: left;
+  margin-right: 40px;
+}
+
+footer div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
 }
